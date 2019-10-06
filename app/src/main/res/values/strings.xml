@@ -1,0 +1,60 @@
+<resources>
+    <string name="app_name">Assigment3</string>
+
+    <string name="tv_title_firstActivity">Assignment</string>
+
+    <!-- Home Activity -->
+    <string name="tv__title_homeActivity">No student added yet.</string>
+    <string name="btn_add_student_homeActivity">Add Student</string>
+
+    <!-- student data -->
+    <string name="et_hint_student_name">Student name</string>
+    <string name="et_hint_class">Class</string>
+    <string name="et_hint_roll_no">Roll no</string>
+    <string name="btn_submit_studentActivity_text">Submit</string>
+
+    <!-- dialog box components -->
+    <string name="tv_dialog_box_view">View</string>
+    <string name="tv_dialog_box_edit">Edit</string>
+    <string name="tv_dialog_box_delete">Delete</string>
+
+    <!-- popup menu-->
+    <string name="popup_item_name">Name</string>
+    <string name="popup_item_roll">Roll no.</string>
+
+    <!-- item layout-->
+    <string name="tv_item_layout_name_of_the_student">Name of the Student</string>
+    <string name="tv_item_layout_class_of_student">Class of the Student</string>
+
+
+
+
+
+
+
+        <string name="tv_splash">Assignment</string>
+        <string name="home">Home</string>
+        <string name="et_hint_studen_tname">Student Name</string>
+        <string name="classs">Class</string>
+        <string name="roll_no">Roll No.</string>
+        <string name="submit">Submit</string>
+        <string name="add_student">Add Student</string>
+        <string name="view">View</string>
+        <string name="edit">Edit</string>
+        <string name="delete">Delete</string>
+        <string name="emptylist">There are no items in the list.</string>
+        <string name="tb_view_student">View Student</string>
+        <string name="list">List</string>
+        <string name="grid">Grid</string>
+        <string name="title_tb_edit">Edit Details</string>
+        <string name="name">Name</string>
+        <string name="rollno">RollNo</string>
+        <string name="back_btn_view">Go Back</string>
+        <string name="btn_set_change">Set Changes</string>
+        <string name="empty_message">Please fill this field.</string>
+        <string name="valid_name_error_msg">Enter a valid name</string>
+        <string name="lessthan12_error_msg">Class Should Be Less Than 12</string>
+        <string name="class_error_msg">Enter Proper Class</string>
+        <string name="proper_roll_no">Enter Proper Roll No</string>
+
+</resources>

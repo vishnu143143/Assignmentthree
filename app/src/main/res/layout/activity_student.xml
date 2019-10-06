@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activities.Student"
+
+    >
+    <include layout="@layout/toolbar"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="15dp">
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/et_student_name"
+
+            android:layout_marginTop="@dimen/et_marginTop_student_name"
+            android:background="@drawable/stroke_button"
+            android:padding="15dp"
+            android:hint="@string/et_hint_student_name"/>
+
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/et_class"
+
+            android:layout_marginTop="@dimen/et_marginTop_class"
+            android:background="@drawable/stroke_button"
+            android:padding="15dp"
+            android:hint="@string/et_hint_class"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/et_roll_no"
+
+            android:layout_marginTop="@dimen/et_marginTop_roll_no"
+            android:background="@drawable/stroke_button"
+            android:padding="15dp"
+            android:hint="@string/et_hint_roll_no"/>
+
+
+
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/btn_submit"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:padding="@dimen/btn_padding_submit_studentActivity"
+            android:layout_below="@+id/et_roll_no"
+            android:text="@string/btn_submit_studentActivity_text"
+            android:textSize="@dimen/btn_submit_studentActivity_textSize"
+            android:textColor="@color/colorGreen"
+            android:background="@drawable/stroke_button"/>
+
+
+    </RelativeLayout>
+
+
+
+</RelativeLayout>

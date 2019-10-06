@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- tool_bar -->
+
+    <dimen name="tv_toolBar_home_size">30sp</dimen>
+
+    <!-- Home Activity -->
+    <dimen name="tv__title_size_homeactivity">30sp</dimen>
+    <dimen name="btn_add_student_homeActivity">30sp</dimen>
+
+    <!-- student data-->
+    <dimen name="et_marginTop_student_name">80dp</dimen>
+    <dimen name="et_marginTop_class">150dp</dimen>
+    <dimen name="et_marginTop_roll_no">220dp</dimen>
+    <dimen name="btn_marginTop_submit_studentActivity">290dp</dimen>
+    <dimen name="btn_padding_submit_studentActivity">15dp</dimen>
+    <dimen name="btn_submit_studentActivity_textSize">20sp</dimen>
+
+    <!-- Dialog box component size-->
+    <dimen name="tv_dialog_box_view_textSize">30sp</dimen>
+    <dimen name="tv_dialog_box_edit_textSize">30sp</dimen>
+    <dimen name="tv_dialog_box_delete_textSize">30sp</dimen>
+
+    <!-- item layout-->
+    <dimen name="tv_item_layout_name_of_student_textSize">30sp</dimen>
+    <dimen name="tv_item_layout_class_of_student_textSize">20sp</dimen>
+
+    <!-- update -->
+    <dimen name="btn_update_size">6sp</dimen>
+
+</resources>
